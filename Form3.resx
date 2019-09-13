@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="القطرالعددDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>القطر/العدد</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn20.HeaderText" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn21.HeaderText" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn22.HeaderText" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn23.HeaderText" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn24.HeaderText" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn25.HeaderText" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn26.HeaderText" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn27.HeaderText" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn28.HeaderText" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn29.HeaderText" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="DataGridViewTextBoxColumn30.HeaderText" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <metadata name="ورقة1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>169, 17</value>
+  </metadata>
+  <metadata name="Database3DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DataGridView1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 373</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Name" xml:space="preserve">
+    <value>DataGridView1</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ورقة1TableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>329, 17</value>
+  </metadata>
+  <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 17</value>
+  </metadata>
+  <data name="عددToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="عددToolStripMenuItem.Text" xml:space="preserve">
+    <value>عدد</value>
+  </data>
+  <data name="قطرToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="قطرToolStripMenuItem.Text" xml:space="preserve">
+    <value>قطر</value>
+  </data>
+  <data name="مساحةToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="مساحةToolStripMenuItem.Text" xml:space="preserve">
+    <value>مساحة</value>
+  </data>
+  <data name="ToolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPcSURBVGhD7ZpNSFRRGIbdBG36IVopEUTb1raqIAJb1EKs
+        aBZJQQvDWhil5SYMIVolhTNTG8GNQ0WMjqPRD0a5UMrAhf9/o6Pj3+hgbhT0676Xc2+f18Np7hzmOmQf
+        PMg55z3nfb+5lwsz17z/lcsVCASKDMLBYDBuQB4Shy/8RRR3ZRxwwO/31zc3N9PExAStrq6SlwU/+MIf
+        OZBHREuvjM6fd3V1ieOI1tbWaGVlhVKpVNaBD/ysQg7kEdH+XobYh843NzdpfX2dlpeXdwz4I0c4HEYT
+        V0REdRmX7Ov4+DhtbGzYB7375Key2kI6V7Yn68AHfpY3coyNjeFW6hAR1WXcb6n5+XnzPsQBr95W07Xa
+        o9Tws5TeJ6uyDnzgB1/4IwfyIJeIqC5DSEtLS+Zm/L10v4BedPiooecmBb5dp/ovpVkD58MHfvDlOZBL
+        RFSX1YAFLuuzD1ep7qPP/JttLB/48hyuGkgmkzY46Gmk2HPgy3NoNVDz5rznaDWwuLhog4MeNp7xHPjy
+        HFoNVLws9BytBhYWFmxw0K26E54DX57DVQN47lrgoBtPjnsOfHkOrQZ8jwo8R6uBubk5m8uVR6i48hCV
+        PDjsGfCDL8/hqoHZ2Vmb4OtqKirfSxcq9tHFu/uzDnzgB98tOTJtAPhDVVRyL9+8rNkGPvBzZnDVQCKR
+        yDlcNTAzM5Nz7K4Gpqenbdrb283NHMzprHF6Ht+hz6fyt4F5rsN+EVFdEMbjcRuMnWVpMl3jICw1niSK
+        nv6DMcY812GviKgupwnG/HlsPZN11jgIGrt9bBtaDUxNTdlgjO/IHEuT6RoHQb+fPbgNzHMd9oqI6oJw
+        cnLSpq2tzdzMwZzOGudHTbkZ1gnmuQ77RUR1Qcg35gquGojFYjmHqwbws16ukXED0WjU3MzBnM4aR6aT
+        aTEnIqoLQueTw1mWJtM1jkyHcmoxFhHVBSF+yrPAWPY811njyHQyLcYiorpkG/knYX0aOmscmU6mxVhE
+        VBeEo6OjNq2treZmDuZ01jgynUyLORFRXRCOjIzkHLurgeHhYZtIJGJfVgvM6axxZDqZFnMiorogdG50
+        lqXJdI0j06GcWoxFRHVBODQ0ZIOx7BGns8aR6WRajEVEdRnCVF9f35aNskeczhpHpnNq+/v7Mf4lIqoL
+        78i6u7tpcHDQpKWlxTyMgzmdNY5M59TiTWXa78jwljIUCtHAwMAWo50COZqamtJ/S4nCe1l8+ZAd6DXI
+        gTwiWnplXELzTT2uRGdnJ/X29pqfhFfAD77wRw7kEdHcldG59b8SCeve9IgEfOEvovyrlZf3Gz88CJLt
+        vElqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ToolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ToolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="ToolStripDropDownButton1.Text" xml:space="preserve">
+    <value>ToolStripDropDownButton1</value>
+  </data>
+  <data name="StatusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 371</value>
+  </data>
+  <data name="StatusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 22</value>
+  </data>
+  <data name="StatusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StatusStrip1.Text" xml:space="preserve">
+    <value>StatusStrip1</value>
+  </data>
+  <data name="&gt;&gt;StatusStrip1.Name" xml:space="preserve">
+    <value>StatusStrip1</value>
+  </data>
+  <data name="&gt;&gt;StatusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 393</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>جدول التسليح</value>
+  </data>
+  <data name="&gt;&gt;القطرالعددDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>القطرالعددDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;القطرالعددDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn13.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn13</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn14.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn14</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn15.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn15</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn16.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn16</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn17.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn17</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn18.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn18</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn19.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn19</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn20.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn20</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn21.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn21</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn22.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn22</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn23.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn23</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn24.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn24</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn25.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn25</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn26.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn26</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn27.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn27</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn28.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn28</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn29.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn29</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn30.Name" xml:space="preserve">
+    <value>DataGridViewTextBoxColumn30</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ورقة1BindingSource.Name" xml:space="preserve">
+    <value>ورقة1BindingSource</value>
+  </data>
+  <data name="&gt;&gt;ورقة1BindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Database3DataSet.Name" xml:space="preserve">
+    <value>Database3DataSet</value>
+  </data>
+  <data name="&gt;&gt;Database3DataSet.Type" xml:space="preserve">
+    <value>CivilEngCalc.Database3DataSet, Database3DataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ورقة1TableAdapter.Name" xml:space="preserve">
+    <value>ورقة1TableAdapter</value>
+  </data>
+  <data name="&gt;&gt;ورقة1TableAdapter.Type" xml:space="preserve">
+    <value>CivilEngCalc.Database3DataSetTableAdapters.ورقة1TableAdapter, Database3DataSet.Designer.vb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton1.Name" xml:space="preserve">
+    <value>ToolStripDropDownButton1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripDropDownButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;عددToolStripMenuItem.Name" xml:space="preserve">
+    <value>عددToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;عددToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;قطرToolStripMenuItem.Name" xml:space="preserve">
+    <value>قطرToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;قطرToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;مساحةToolStripMenuItem.Name" xml:space="preserve">
+    <value>مساحةToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;مساحةToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
